@@ -14,10 +14,14 @@ The basic requirements to run this program are:
 
 =>scipy-1.4.1
 
+=>pandas  
+
+=>matplotlib
+
 Description
 
 The dataset that we use for this program has a lot of data samples of Red Wine with the required characteristics.
 
 Working
 
-The program takes the dataset using the numpy library function. We split the dataset into training and testing parts for the respective purposes. We then train our model using linear regression and then use the predict method to predict method to predict the model and give us the output.
+The program takes the dataset using the numpy library function. We split the dataset into training and testing parts for the respective purposes. We then train our model using linear regression and then we predict the quality and give the output.
